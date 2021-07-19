@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/MuseoSans_500.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Museo", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: #4d4d4d;
+}
+
+.terms-section {
+  padding: 50px 0;
+}
+.terms-section h3 {
+  color: #075cb8;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.terms-section .faqs .accordion .card {
+  margin-bottom: 15px;
+}
+.terms-section .faqs .accordion .card button {
+  margin: 0;
+  padding: 0;
+  color: #075cb8 !important;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: left;
+  max-width: 90%;
+}
+.terms-section .faqs .accordion .card button:hover {
+  text-decoration: none;
+}
+.terms-section .faqs .accordion .card i {
+  position: absolute;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .terms-section .faqs .accordion .card button {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

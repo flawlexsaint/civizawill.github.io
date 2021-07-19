@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/MuseoSans_500.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Museo", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: #4d4d4d;
+}
+
+.header-background {
+  background-image: url("../img/Services_banner.jpg");
+}
+
+.inner-section .card .card-body {
+  padding: 60px 70px 120px;
+}
+.inner-section .card .card-body .tab-content h6 {
+  color: #075cb8;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.inner-section .card .card-body #v-pills-tab {
+  max-width: 90%;
+}
+.inner-section .card .card-body .nav-pills .nav-link.active,
+.inner-section .card .card-body .nav-pills .show > .nav-link {
+  background: #c93134;
+}
+.inner-section .card .card-body .nav-pills .nav-link {
+  color: #4d4d4d;
+  font-size: 13px;
+}
+.inner-section .card .card-body .nav-pills .nav-link.active {
+  color: #ffffff;
+  border-radius: 20px;
+}
+.inner-section .card .card-body .nav-pills.active {
+  background: #c93134;
+  padding-left: 25px;
+}
+.inner-section .card .card-body .nav-pills .show > .nav-link {
+  background: #c93134;
+}
+
+@media (max-width: 767px) {
+  .inner-section .card .card-body {
+    padding: 30px;
+  }
+  .inner-section .card .card-body .tab-content {
+    margin-top: 30px;
+  }
+  .inner-section .card .card-body #v-pills-tab {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

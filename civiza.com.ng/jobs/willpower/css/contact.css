@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/MuseoSans_500.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Museo", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: #4d4d4d;
+}
+
+.map-section .mapouter {
+  position: absolute;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+.map-section .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+.contact-header-section {
+  position: relative;
+  padding-top: 100px;
+  height: 500px;
+  color: #fff;
+  background: rgba(4, 31, 60, 0.7);
+}
+.contact-header-section p {
+  color: #fff;
+}
+
+.inner-section .card .card-body {
+  padding: 0;
+}
+.inner-section .card .card-body .row {
+  margin: 0;
+}
+.inner-section .card .card-body .contact-form {
+  padding: 60px 50px;
+}
+.inner-section .card .card-body .contact-form .alert-success {
+  margin: 0 0 40px;
+}
+.inner-section .card .card-body .contact-form form label {
+  color: #c7c7c7;
+}
+.inner-section .card .card-body .contact-form form .form-control {
+  border: none;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 0;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.inner-section .card .card-body .contact-form form .form-control::placeholder {
+  font-size: 14px;
+}
+.inner-section .card .card-body .contact-form form .form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #075cb8;
+}
+.inner-section .card .card-body .contact-form form .middle-form {
+  margin: 25px 0;
+}
+.inner-section .card .card-body .contact-form form .submit-btn {
+  border-radius: 20px;
+  background-color: #c93134 !important;
+  border-color: #c93134;
+  box-shadow: none;
+  color: #fff;
+  padding: 6px 40px;
+  font-size: 12px;
+  margin-top: 50px;
+  text-transform: none;
+}
+.inner-section .card .card-body .contact-form form .submit-btn:focus {
+  box-shadow: none;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-form
+  form
+  .submit-btn:not(:disabled):not(.disabled).active {
+  color: #ffffff;
+  background-color: #c93134;
+  border-color: #c93134;
+  box-shadow: none;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-form
+  form
+  .submit-btn:not(:disabled):not(.disabled):active {
+  color: #ffffff;
+  background-color: #c93134;
+  border-color: #c93134;
+  box-shadow: none;
+}
+.inner-section .card .card-body .contact-form h3 {
+  color: #075cb8;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.inner-section .card .card-body .contact-details {
+  background: linear-gradient(240.07deg, #01349b 14.25%, #129ee9 122.47%);
+  padding: 60px 50px;
+}
+.inner-section .card .card-body .contact-details h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.inner-section .card .card-body .contact-details .contact-info {
+  margin-top: 30px;
+  padding: 0;
+}
+.inner-section .card .card-body .contact-details .contact-info svg {
+  height: 40px;
+  width: 40px;
+  fill: #fff;
+}
+.inner-section .card .card-body .contact-details .media-body p {
+  color: #fff;
+}
+.inner-section .card .card-body .contact-details .media-body .whatsapp-icon {
+  display: flex;
+  align-items: center;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-details
+  .media-body
+  .whatsapp-icon
+  svg {
+  margin-right: 10px;
+}
+.inner-section .card .card-body .contact-details .media-body .whatsapp-icon p {
+  margin-bottom: 0;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-details
+  .media-body
+  .whatsapp-icon
+  p
+  a {
+  color: #fff;
+}
+.inner-section .card .card-body .contact-details .open-map {
+  margin-top: 30px;
+}
+.inner-section .card .card-body .contact-details .open-map .open-map-btn {
+  border-radius: 20px;
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  box-shadow: none;
+  color: #fff;
+  padding: 6px 40px;
+  font-size: 12px;
+  text-transform: none;
+}
+.inner-section .card .card-body .contact-details .open-map .open-map-btn:focus {
+  box-shadow: none;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-details
+  .open-map
+  .open-map-btn:not(:disabled):not(.disabled).active {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+.inner-section
+  .card
+  .card-body
+  .contact-details
+  .open-map
+  .open-map-btn:not(:disabled):not(.disabled):active {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .map-section .mapouter {
+    height: 450px;
+  }
+  .map-section .gmap_canvas {
+    height: 450px;
+  }
+  .map-section .gmap_canvas iframe {
+    height: 450px;
+  }
+
+  .contact-header-section {
+    height: 450px;
+  }
+
+  .inner-section .card .card-body .contact-form {
+    padding: 40px 8px;
+  }
+  .inner-section .card .card-body .contact-form form .middle-form {
+    margin: 0;
+  }
+  .inner-section .card .card-body .contact-form form .form-group {
+    margin-bottom: 25px;
+  }
+  .inner-section .card .card-body .contact-details {
+    padding: 40px 20px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

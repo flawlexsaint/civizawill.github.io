@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/MuseoSans_500.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Museo", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: #4d4d4d;
+}
+
+header {
+  background: linear-gradient(240.07deg, #01349b 14.25%, #129ee9 122.47%);
+}
+header .amber.lighten-4 {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+header .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+header .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: transparent;
+  color: #fff;
+}
+header .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover,
+header .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+header .bg-light {
+  background-color: transparent !important;
+  padding: 8px 0;
+}
+header .bg-light .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+header .bg-light .navbar-nav .nav-link {
+  font-size: 12px;
+  transition: 0.3s all ease-in-out;
+}
+header .bg-light .navbar-nav .login-link {
+  margin-top: 4px;
+}
+header .bg-light .navbar-nav .login-link a {
+  color: #fff;
+  padding: 8px 0;
+  background: transparent;
+  border-radius: 0px;
+}
+header .bg-light .navbar-nav .login-link a:hover {
+  color: rgba(1, 52, 155, 0.5);
+}
+header .bg-light .powered-by {
+  display: none;
+}
+
+.header-background {
+  background-size: cover;
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header-background .header-details-overlay {
+  background: rgba(4, 31, 60, 0.5);
+  height: 100%;
+}
+.header-background .header-details-overlay .header-details {
+  color: #ffffff;
+  padding-top: 100px;
+}
+.header-background .header-details-overlay .header-details h1 {
+  margin-bottom: 20px;
+}
+.header-background .header-details-overlay .header-details p {
+  color: #fff;
+}
+
+.inner-section {
+  position: relative;
+  top: -150px;
+}
+.inner-section .card {
+  box-shadow: 0px 14px 62px rgba(0, 0, 0, 0.11);
+  border: none;
+  border-radius: 0;
+}
+.inner-section .card .card-body {
+  padding: 60px 70px;
+}
+
+footer {
+  background: linear-gradient(240.07deg, #01349b 14.25%, #129ee9 122.47%);
+  padding: 60px 0 20px;
+}
+footer p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 28px;
+  font-size: 13px;
+}
+footer a {
+  color: #fff;
+  transition: 0.3s all ease-in-out;
+  font-size: 13px;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+footer .media svg {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+footer .media .whatsapp-icon svg {
+  height: 40px;
+}
+footer .whatsapp-trigger {
+  display: flex;
+  align-items: center;
+}
+footer .social-icons {
+  line-height: 28px;
+}
+footer .social-icons i {
+  margin-right: 10px;
+}
+footer .copyright-section {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 10px 0;
+}
+footer .copyright-section ul {
+  padding-left: 0;
+}
+footer .copyright-section li {
+  display: inline-block;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .header-background {
+    height: 450px;
+  }
+
+  .inner-section {
+    top: -100px;
+  }
+  .inner-section .card .card-body {
+    padding: 30px;
+  }
+
+  footer .middle-layer {
+    margin: 30px 0;
+  }
+
+  footer .copyright-section {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  header .bg-light .powered-by {
+    display: block;
+  }
+  header .bg-light .navbar-nav .login-link a {
+    color: #01349b !important;
+    padding: 4px 25px;
+    background: #fff;
+    border-radius: 20px;
+  }
+  header .bg-light .navbar-nav .login-link a:hover {
+    color: rgba(1, 52, 155, 0.5);
+  }
+}
+@media (max-width: 992px) {
+  .navbar .nav-item .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

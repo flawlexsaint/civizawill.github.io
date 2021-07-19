@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/museo/MuseoSans_500.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Museo", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: #4d4d4d;
+}
+
+.header-background {
+  background-image: url("../img/header-bg.jpg");
+}
+
+.inner-section .card .card-body .about-inner {
+  margin-top: 70px;
+}
+.inner-section .card .card-body .about-inner .red-top {
+  background-color: #c93134;
+  width: 70px;
+  height: 6px;
+  margin-bottom: 20px;
+}
+.inner-section .card .card-body .about-inner h3 {
+  color: #075cb8;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 599px) {
+  .inner-section .card .card-body .about-inner {
+    margin-top: 40px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
