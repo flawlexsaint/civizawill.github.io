@@ -339,6 +339,10 @@ header .wave {
   margin-top: 80px;
 }
 
+.carousel_height {
+  height: 600px !important;
+}
+
 @media (min-width: 992px) and (max-width: 1300px) {
   header .header-details img {
     right: -5%;
@@ -380,6 +384,11 @@ header .wave {
     position: absolute;
     left: 80% !important;
     top: 40%;
+  }
+  
+  .carousel_height {
+    height: 100% !important;
+    margin-bottom: 2rem;
   }
 
   .carousel_actions {
